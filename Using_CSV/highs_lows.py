@@ -3,7 +3,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 
 #Gets the high temperatures and their dates
-filename = 'downloading_data\death_valley_2014.csv'
+filename = 'Using_CSV\death_valley_2014.csv'
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
